@@ -1,1 +1,2 @@
 # hashedAuthentication
+This is a basic authentication process implemented with Python. The register_user.py script allows the registration of new users in the database, utilizing sqlite3. It inserts the username and the hashed password into the users table. The login.py script handles the login process, comparing the hashed passwords to verify if the correct username and password pair has been provided.
